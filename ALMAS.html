@@ -1,0 +1,60 @@
+<! DOCTYPE html>
+<head>
+  <html lang=”en”>
+     <meta charset=”utf-8”>
+
+          <title> ALMAS</title>
+          <link rel="stylesheet" href="css/style.css">
+          </head>
+          <body>
+          <div class="ALMAS">
+          <div class="head"></div>
+          <h2>ALMAS</h2>
+          <p1> products managment system </p1>
+          <div class="inputs"></div>
+          <input type="text" id="title" placeholder="title">
+          <div class="price">
+            <input onkeyup="gettotal()" type="number" id="price" placeholder="price">
+            <input onkeyup="gettotal()" type="number" id="taxes" placeholder="taxes">
+            <input onkeyup="gettotal()" type="number" id="discount" placeholder="discount">
+            <small id="total"> 0 </small>
+          </div>
+<input placeholder="count" type="number" id="count">
+<input placeholder="category" type="text" id="category">
+<button id="submit">CREATE</button>
+<div class="outputs">
+  <div class="search products">
+    <input type="text" id="search" placeholder="search">
+<div class="btnsearch">
+  <button id="search product">search product</button>
+  <button id="search category">search by category</button>
+  <table>
+    <tr>
+    <th>brand</th>
+    <th>product<th>
+      <th>price</th>
+      <th>category</th>
+      <th>discount</th>
+
+</tr>
+<tbody>
+  <tr>
+    <td>ALMAS</td>
+    <td>almas baby dipares</td>
+    <td>
+    <td>    10         </td>
+    <td>baby diapers</td>
+    <td>0.1<td>
+
+    <td><button id="update">update</button></td>
+    <td><button id="delete">delete</button></td>
+</table>
+</div>
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
